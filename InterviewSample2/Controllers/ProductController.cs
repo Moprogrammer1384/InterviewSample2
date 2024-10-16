@@ -20,8 +20,7 @@ public class ProductController(IUrlRepository urlRepository) : ControllerBase
     }
 
     [HttpGet("{trackingCode}")]
-    public IActionResult Generate([FromRoute] int trackingCode,
-                                  [FromServices] LinkGenerator linkGenerator)
+    public IActionResult Generate([FromRoute] int trackingCode)
     {
         string link = $"https://localhost:7016/Product/{trackingCode}";
 
@@ -41,4 +40,6 @@ public class ProductController(IUrlRepository urlRepository) : ControllerBase
 
         return Ok(new UrlDto(link, 1));
     }
+
+
 }
