@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewSample2.DAL", "Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewSample2.Model", "InterviewSample2.Model\InterviewSample2.Model.csproj", "{7ADD1993-634E-49E8-8623-B481EEA302CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interviewSample2.Application", "interviewSample2.Application\interviewSample2.Application.csproj", "{9AF6AED6-DA35-47A8-99ED-DA91F800E962}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewSample2.Application", "interviewSample2.Application\InterviewSample2.Application.csproj", "{9AF6AED6-DA35-47A8-99ED-DA91F800E962}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewSample2", "InterviewSample2\InterviewSample2.csproj", "{CCE0123E-1F15-4D01-ADB1-51041E42FF5F}"
 EndProject
